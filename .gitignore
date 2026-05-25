@@ -1,0 +1,84 @@
+# ==============================================================================
+# GITIGNORE POUR PROJET IA (PYTHON + YOLO + DATASETS)
+# Auteur : Antigravity (Assistant IA)
+# ==============================================================================
+
+# --- Environnements Virtuels Python ---
+# L'environnement virtuel local ne doit jamais être poussé sur GitHub.
+# Il est recréé via : pip install -r requirements.txt
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+.python-version
+
+# --- Fichiers Compilés & Caches Python / Jupyter ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+
+# --- Configuration des IDE (VS Code, PyCharm, etc.) ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Modèles YOLO & Poids Deep Learning (Fichiers lourds .pt, .keras) ---
+# GitHub limite les fichiers à 100 Mo. Les poids YOLO (.pt) se retéléchargent 
+# automatiquement si absents ou doivent être stockés hors de Git.
+*.pt
+*.onnx
+*.engine
+# Note : Pour les petits modèles Keras (.keras / .h5), vous pouvez choisir de les suivre.
+# S'ils sont trop gros, décommentez la ligne ci-dessous :
+# *.keras
+# *.h5
+
+# --- Sorties d'entraînement (YOLO / TensorBoard) ---
+# Le dossier 'runs/' contient les résultats de chaque entraînement (images, courbes, logs, poids 'best.pt' et 'last.pt')
+runs/
+
+# --- Datasets et Fichiers de Données Volumineux ---
+# Les bases de données ne doivent pas être poussées sur GitHub (trop volumineuses).
+# Il est préférable d'expliquer comment les télécharger dans le README.md.
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+
+# --- Archives et Fichiers Compressés ---
+# Les sauvegardes compressées prennent énormément de place et polluent l'historique Git.
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+
+# --- Fichiers Multimédia Volumineux ---
+# Les vidéos de démonstration (ex: pour le comptage YOLO) sont trop lourdes pour Git.
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Astuce : Si vous voulez autoriser UNE vidéo MP4 spécifique et légère (ex: demo.mp4) :
+# !chemin/vers/ma_video.mp4
+
+
+# --- Système & Fichiers Temporaires ---
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.log
