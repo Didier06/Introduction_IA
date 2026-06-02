@@ -40,9 +40,20 @@ Pour exécuter les notebooks et scripts de ce dépôt, suivez les étapes ci-des
 Assurez-vous d'avoir **Python 3.10+** d'installé.
 
 ### 2. Cloner le projet
+
+Vous pouvez cloner le projet de deux manières différentes :
+
+**Option A : Cloner dans un nouveau sous-dossier**
 ```bash
-git clone <URL_DE_VOTRE_DEPOT_GITHUB>
+git clone https://github.com/Didier06/Introduction_IA
 cd introduction_IA
+```
+
+**Option B : Cloner directement le contenu dans le dossier actuel (avec le point `.`)**
+> [!IMPORTANT]
+> Pour utiliser cette méthode, assurez-vous que votre dossier actuel est vide.
+```bash
+git clone https://github.com/Didier06/Introduction_IA .
 ```
 
 ### 3. Créer un environnement virtuel
