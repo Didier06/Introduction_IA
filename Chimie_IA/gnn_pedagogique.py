@@ -305,7 +305,10 @@ class GNNPedagogique:
                 self.fig.canvas.draw_idle()
                 self.step_requested = False
             
-            plt.pause(0.05)
+            try:
+                plt.pause(0.05)
+            except Exception:
+                pass
 
 if __name__ == '__main__':
     app = GNNPedagogique()
