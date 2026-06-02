@@ -15,6 +15,8 @@ Le projet est organisé par thématiques d'apprentissage :
 *   `IA_reseau_2classes.ipynb` : Construction d'un réseau multi-couches pour de la classification binaire.
 
 ### 2. 🧪 Applications en Chimie & Toxicité
+*   `IA_reseau_1neurone_TP_Chimie.ipynb` : Modélisation de la loi de Beer-Lambert avec un seul neurone (régression linéaire).
+*   `IA_reseau_2classes_TP_Chimie.ipynb` : Classification de molécules actives ou inactives selon LogP & PSA avec un neurone sigmoïde (classification binaire).
 *   `Chimie_naives_Bayles.ipynb` & `Chimie_naives_Bayes_Reel.ipynb` : Utilisation de l'algorithme Naive Bayes pour des applications chimiques.
 *   `Toxicite_Keras.ipynb` & `Toxicite_Keras_2.ipynb` : Modélisation de la toxicité moléculaire avec des réseaux denses Keras.
 *   `Toxicite_GNN_DeepChem.ipynb`, `Toxicite_GNN_Tox21.ipynb` & `GNN_Toxicite_Ameliore.ipynb` : Utilisation de **Graph Neural Networks (GNN)** pour prédire la toxicité à partir de structures moléculaires.
