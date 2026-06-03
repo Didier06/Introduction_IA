@@ -1,23 +1,25 @@
-# 🧠 Introduction à l'Intelligence Artificielle (Introduction IA)
+# Introduction à l'Intelligence Artificielle (Introduction IA)
 
 Bienvenue dans ce dépôt d'apprentissage et d'expérimentation autour de l'**Intelligence Artificielle** et du **Deep Learning**. Ce projet regroupe plusieurs cas pratiques allant des bases des réseaux de neurones jusqu'à des architectures modernes comme **YOLO** (vision par ordinateur) et les **GNN** (Graph Neural Networks).
 
 ---
 
-## 📂 Structure du Projet
+## Structure du Projet
 
 Le projet est organisé par thématiques d'apprentissage :
 
-### 1. 🪙 Fondations & Classifications
+### 1. Fondations & Classifications (Dossier `intro_IA_gene`)
+
+Le dossier [`intro_IA_gene`](./intro_IA_gene) contient des notebooks généralistes pour apprendre et expérimenter les bases de la classification et des réseaux de neurones (sans prérequis métier) :
 
 * `IA_reseau_1neurone.ipynb` & `.py` : Implémentation pas à pas d'un neurone unique.
 * `circles_classification.ipynb` & `IA_circles_classification.ipynb` : Classification de données circulaires non-linéaires.
 * `IA_make_moon_1.ipynb` : Expérimentations sur le dataset de classification "Make Moons".
 * `IA_reseau_2classes.ipynb` : Construction d'un réseau multi-couches pour de la classification binaire.
 
-### 2. 🧪 Applications en Chimie & Toxicité (Dossier `Chimie_IA`)
+### 2. Applications en Chimie & Toxicité (Dossier `Chimie_IA`)
 
-Le dossier [`Chimie_IA`](./Chimie_IA) regroupe les cas pratiques appliqués à la chimie et à la prédiction de toxicité :
+Le dossier [`Chimie_IA`](./Chimie_IA) regroupe les cas pratiques appliqués spécifiquement à la chimie et à la prédiction de toxicité des molécules :
 
 **Bases & Machine Learning Classique**
 * `IA_reseau_1neurone_TP_Chimie.ipynb` : Modélisation de la loi de Beer-Lambert avec un seul neurone (régression linéaire).
@@ -33,7 +35,7 @@ Le dossier [`Chimie_IA`](./Chimie_IA) regroupe les cas pratiques appliqués à l
 * `gnn_pedagogique.py` & `gnn_architecture.py` : Scripts pédagogiques détaillant l'architecture et le fonctionnement interne des réseaux de neurones sur graphes.
 * `GNN_Introduction.pdf` / `.docx` : Document explicatif introduisant les concepts des Graph Neural Networks.
 
-### 3. 🎯 Vision par Ordinateur avec YOLOv8
+### 3. Vision par Ordinateur avec YOLOv8
 
 Le dossier [Yolo_v8](./Yolo_v8) contient des scripts de détection d'objets en temps réel :
 
@@ -41,7 +43,7 @@ Le dossier [Yolo_v8](./Yolo_v8) contient des scripts de détection d'objets en t
 * `yolov8_webcam1.py` : Utilisation de YOLOv8 sur flux vidéo en direct (Webcam).
 * `face_detect.py` : Détection de visages optimisée.
 
-### 4. 🔢 Reconnaissance de Chiffres (MNIST)
+### 4. Reconnaissance de Chiffres (MNIST)
 
 Le dossier [digit_recognition](./digit_recognition) propose des implémentations de classification d'images de chiffres manuscrits :
 
@@ -50,13 +52,13 @@ Le dossier [digit_recognition](./digit_recognition) propose des implémentations
 
 ---
 
-## 🛠️ Installation et Configuration
+## Installation et Configuration
 
 Pour exécuter les notebooks et scripts de ce dépôt, suivez les étapes ci-dessous :
 
 ### 1. Prérequis
 
-Assurez-vous d'avoir **Python 3.10+** d'installé.
+Assurez-vous d'avoir **Python 3.11.2** d'installé (c'est la version recommandée pour assurer la compatibilité de toutes les bibliothèques, notamment TensorFlow).
 
 ### 2. Cloner le projet
 
@@ -100,7 +102,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📦 Gestion des Fichiers Volumineux (Datasets et Poids YOLO)
+## Gestion des Fichiers Volumineux (Datasets et Poids YOLO)
 
 Pour garder ce dépôt GitHub léger et rapide à charger, les fichiers volumineux suivants ont été exclus via le fichier `.gitignore` :
 
@@ -110,7 +112,7 @@ Pour garder ce dépôt GitHub léger et rapide à charger, les fichiers volumine
 
 ---
 
-## 🚀 Lancer un Notebook
+## Lancer un Notebook
 
 Une fois l'environnement activé et les dépendances installées :
 
