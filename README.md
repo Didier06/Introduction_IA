@@ -15,13 +15,23 @@ Le projet est organisé par thématiques d'apprentissage :
 * `IA_make_moon_1.ipynb` : Expérimentations sur le dataset de classification "Make Moons".
 * `IA_reseau_2classes.ipynb` : Construction d'un réseau multi-couches pour de la classification binaire.
 
-### 2. 🧪 Applications en Chimie & Toxicité
+### 2. 🧪 Applications en Chimie & Toxicité (Dossier `Chimie_IA`)
 
+Le dossier [`Chimie_IA`](./Chimie_IA) regroupe les cas pratiques appliqués à la chimie et à la prédiction de toxicité :
+
+**Bases & Machine Learning Classique**
 * `IA_reseau_1neurone_TP_Chimie.ipynb` : Modélisation de la loi de Beer-Lambert avec un seul neurone (régression linéaire).
 * `IA_reseau_2classes_TP_Chimie.ipynb` : Classification de molécules actives ou inactives selon LogP & PSA avec un neurone sigmoïde (classification binaire).
 * `Chimie_naives_Bayles.ipynb` & `Chimie_naives_Bayes_Reel.ipynb` : Utilisation de l'algorithme Naive Bayes pour des applications chimiques.
-* `Toxicite_Keras.ipynb` & `Toxicite_Keras_2.ipynb` : Modélisation de la toxicité moléculaire avec des réseaux denses Keras.
-* `Toxicite_GNN_DeepChem.ipynb`, `Toxicite_GNN_Tox21.ipynb` & `GNN_Toxicite_Ameliore.ipynb` : Utilisation de **Graph Neural Networks (GNN)** pour prédire la toxicité à partir de structures moléculaires.
+
+**Deep Learning & Réseaux Denses**
+* `Toxicite_Keras.ipynb` & `Toxicite_Keras_2.ipynb` : Modélisation de la toxicité moléculaire avec des réseaux de neurones denses Keras.
+* `mlp_pedagogique.py` : Implémentation pédagogique d'un réseau multi-couches (MLP).
+
+**Graph Neural Networks (GNN)**
+* `Toxicite_GNN_DeepChem.ipynb`, `Toxicite_GNN_Tox21.ipynb` & `GNN_Toxicite_Ameliore.ipynb` : Utilisation de **GNN** pour prédire la toxicité à partir de structures moléculaires sous forme de graphes.
+* `gnn_pedagogique.py` & `gnn_architecture.py` : Scripts pédagogiques détaillant l'architecture et le fonctionnement interne des réseaux de neurones sur graphes.
+* `GNN_Introduction.pdf` / `.docx` : Document explicatif introduisant les concepts des Graph Neural Networks.
 
 ### 3. 🎯 Vision par Ordinateur avec YOLOv8
 
