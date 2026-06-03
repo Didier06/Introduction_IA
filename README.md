@@ -1,99 +1,99 @@
-# Introduction à l'Intelligence Artificielle (Introduction IA)
+# Introduction to Artificial Intelligence (Introduction IA)
 
-Bienvenue dans ce dépôt d'apprentissage et d'expérimentation autour de l'**Intelligence Artificielle** et du **Deep Learning**. Ce projet regroupe plusieurs cas pratiques allant des bases des réseaux de neurones jusqu'à des architectures modernes comme **YOLO** (vision par ordinateur) et les **GNN** (Graph Neural Networks).
+Welcome to this learning and experimentation repository centered around **Artificial Intelligence** and **Deep Learning**. This project gathers several practical cases ranging from the basics of neural networks to modern architectures such as **YOLO** (computer vision) and **GNNs** (Graph Neural Networks).
 
 ---
 
-## Structure du Projet
+## Project Structure
 
-Le projet est organisé par thématiques d'apprentissage :
+The project is organized by learning themes:
 
-### 1. Fondations & Classifications (Dossier `intro_IA_gene`)
+### 1. Foundations & Classifications (Folder `intro_IA_gene`)
 
-Le dossier [`intro_IA_gene`](./intro_IA_gene) contient des notebooks généralistes pour apprendre et expérimenter les bases de la classification et des réseaux de neurones (sans prérequis métier) :
+The [`intro_IA_gene`](./intro_IA_gene) folder contains general-purpose notebooks to learn and experiment with the basics of classification and neural networks (without business prerequisites):
 
-* `IA_reseau_1neurone.ipynb` & `.py` : Implémentation pas à pas d'un neurone unique.
-* `circles_classification.ipynb` & `IA_circles_classification.ipynb` : Classification de données circulaires non-linéaires.
-* `IA_make_moon_1.ipynb` : Expérimentations sur le dataset de classification "Make Moons".
-* `IA_reseau_2classes.ipynb` : Construction d'un réseau multi-couches pour de la classification binaire.
+* `IA_reseau_1neurone.ipynb` & `.py`: Step-by-step implementation of a single neuron.
+* `circles_classification.ipynb` & `IA_circles_classification.ipynb`: Classification of non-linear circular data.
+* `IA_make_moon_1.ipynb`: Experiments on the "Make Moons" classification dataset.
+* `IA_reseau_2classes.ipynb`: Construction of a multi-layer network for binary classification.
 
-### 2. Applications en Chimie & Toxicité (Dossier `Chimie_IA`)
+### 2. Applications in Chemistry & Toxicity (Folder `Chimie_IA`)
 
-Le dossier [`Chimie_IA`](./Chimie_IA) regroupe les cas pratiques appliqués spécifiquement à la chimie et à la prédiction de toxicité des molécules :
+The [`Chimie_IA`](./Chimie_IA) folder brings together practical cases specifically applied to chemistry and predicting the toxicity of molecules:
 
-**Bases & Machine Learning Classique**
-* `IA_reseau_1neurone_TP_Chimie.ipynb` : Modélisation de la loi de Beer-Lambert avec un seul neurone (régression linéaire).
-* `IA_reseau_2classes_TP_Chimie.ipynb` : Classification de molécules actives ou inactives selon LogP & PSA avec un neurone sigmoïde (classification binaire).
-* `Chimie_naives_Bayles.ipynb` & `Chimie_naives_Bayes_Reel.ipynb` : Utilisation de l'algorithme Naive Bayes pour des applications chimiques.
+**Basics & Classical Machine Learning**
+* `IA_reseau_1neurone_TP_Chimie.ipynb`: Modeling the Beer-Lambert law with a single neuron (linear regression).
+* `IA_reseau_2classes_TP_Chimie.ipynb`: Classification of active or inactive molecules according to LogP & PSA with a sigmoid neuron (binary classification).
+* `Chimie_naives_Bayles.ipynb` & `Chimie_naives_Bayes_Reel.ipynb`: Use of the Naive Bayes algorithm for chemical applications.
 
-**Deep Learning & Réseaux Denses**
-* `Toxicite_Keras.ipynb` & `Toxicite_Keras_2.ipynb` : Modélisation de la toxicité moléculaire avec des réseaux de neurones denses Keras.
-* `mlp_pedagogique.py` : Implémentation pédagogique d'un réseau multi-couches (MLP).
+**Deep Learning & Dense Networks**
+* `Toxicite_Keras.ipynb` & `Toxicite_Keras_2.ipynb`: Modeling molecular toxicity with Keras dense neural networks.
+* `mlp_pedagogique.py`: Educational implementation of a Multi-Layer Perceptron (MLP).
 
 **Graph Neural Networks (GNN)**
-* `Toxicite_GNN_DeepChem.ipynb`, `Toxicite_GNN_Tox21.ipynb` & `GNN_Toxicite_Ameliore.ipynb` : Utilisation de **GNN** pour prédire la toxicité à partir de structures moléculaires sous forme de graphes.
-* `gnn_pedagogique.py` & `gnn_architecture.py` : Scripts pédagogiques détaillant l'architecture et le fonctionnement interne des réseaux de neurones sur graphes.
-* `GNN_Introduction.pdf` / `.docx` : Document explicatif introduisant les concepts des Graph Neural Networks.
+* `Toxicite_GNN_DeepChem.ipynb`, `Toxicite_GNN_Tox21.ipynb` & `GNN_Toxicite_Ameliore.ipynb`: Use of **GNNs** to predict toxicity from molecular structures in graph form.
+* `gnn_pedagogique.py` & `gnn_architecture.py`: Educational scripts detailing the architecture and internal workings of graph neural networks.
+* `GNN_Introduction.pdf` / `.docx`: Explanatory document introducing Graph Neural Network concepts.
 
-### 3. Vision par Ordinateur avec YOLOv8
+### 3. Computer Vision with YOLOv8
 
-Le dossier [Yolo_v8](./Yolo_v8) contient des scripts de détection d'objets en temps réel :
+The [Yolo_v8](./Yolo_v8) folder contains scripts for real-time object detection:
 
-* `yolo_comptage_1.py` & `yolo_comptage_2.py` : Algorithmes de comptage et de suivi d'objets / personnes.
-* `yolov8_webcam1.py` : Utilisation de YOLOv8 sur flux vidéo en direct (Webcam).
-* `face_detect.py` : Détection de visages optimisée.
+* `yolo_comptage_1.py` & `yolo_comptage_2.py`: Object / person counting and tracking algorithms.
+* `yolov8_webcam1.py`: Using YOLOv8 on a live video stream (Webcam).
+* `face_detect.py`: Optimized face detection.
 
-### 4. Reconnaissance de Chiffres (MNIST)
+### 4. Digit Recognition (MNIST)
 
-Le dossier [digit_recognition](./digit_recognition) propose des implémentations de classification d'images de chiffres manuscrits :
+The [digit_recognition](./digit_recognition) folder provides implementations for handwritten digit image classification:
 
-* `ann_keras.ipynb` : Classification via Réseau de Neurones Artificiels (ANN).
-* `cnn_keras.ipynb` : Classification haute performance via Réseau de Neurones Convolutifs (CNN).
+* `ann_keras.ipynb`: Classification via Artificial Neural Network (ANN).
+* `cnn_keras.ipynb`: High-performance classification via Convolutional Neural Network (CNN).
 
 ---
 
-## Installation et Configuration
+## Installation and Setup
 
-Pour exécuter les notebooks et scripts de ce dépôt, suivez les étapes ci-dessous :
+To run the notebooks and scripts in this repository, follow the steps below:
 
-### 1. Prérequis
+### 1. Prerequisites
 
-Assurez-vous d'avoir **Python 3.11.2** d'installé (c'est la version recommandée pour assurer la compatibilité de toutes les bibliothèques, notamment TensorFlow).
+Make sure you have **Python 3.11.2** installed (this is the recommended version to ensure compatibility across all libraries, especially TensorFlow).
 
-### 2. Cloner le projet
+### 2. Clone the project
 
-Vous pouvez cloner le projet de deux manières différentes :
+You can clone the project in two different ways:
 
-**Option A : Cloner dans un nouveau sous-dossier**
+**Option A: Clone into a new subfolder**
 
 ```bash
 git clone https://github.com/Didier06/Introduction_IA
 cd introduction_IA
 ```
 
-**Option B : Cloner directement le contenu dans le dossier actuel (avec le point `.`)**
+**Option B: Clone the contents directly into the current folder (using the `.` dot)**
 > [!IMPORTANT]
-> Pour utiliser cette méthode, assurez-vous que votre dossier actuel est vide.
+> To use this method, ensure that your current folder is empty.
 
 ```bash
 git clone https://github.com/Didier06/Introduction_IA .
 ```
 
-### 3. Créer un environnement virtuel
+### 3. Create a virtual environment
 
-Il est fortement recommandé d'utiliser un environnement virtuel pour éviter les conflits de dépendances :
+It is highly recommended to use a virtual environment to avoid dependency conflicts:
 
 ```bash
-# Sur Windows
+# On Windows
 python -m venv .venv
 .venv\Scripts\activate
 
-# Sur macOS/Linux
+# On macOS/Linux
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 4. Installer les dépendances
+### 4. Install dependencies
 
 ```bash
 pip install --upgrade pip
@@ -102,19 +102,19 @@ pip install -r requirements.txt
 
 ---
 
-## Gestion des Fichiers Volumineux (Datasets et Poids YOLO)
+## Handling Large Files (Datasets and YOLO Weights)
 
-Pour garder ce dépôt GitHub léger et rapide à charger, les fichiers volumineux suivants ont été exclus via le fichier `.gitignore` :
+To keep this GitHub repository lightweight and fast to load, the following large files have been excluded via the `.gitignore` file:
 
-1. **Poids YOLO (`.pt`)** : Les fichiers comme `yolov8n.pt` se téléchargent automatiquement lors de la première exécution de vos scripts YOLO via la bibliothèque Ultralytics.
-2. **Vidéos de test (`.avi`, `.mp4`)** : Les vidéos de démonstration de tracking et comptage doivent être placées localement dans le dossier du projet.
-3. **Jeux de données volumineux (`.csv`, dossiers `datasets/`)** : Par exemple, le fichier `qsar_oral_toxicity.csv` ou le dataset COCO8 doivent être récupérés et placés manuellement dans leurs dossiers respectifs avant de lancer les notebooks.
+1. **YOLO Weights (`.pt`)**: Files like `yolov8n.pt` are automatically downloaded during the first run of your YOLO scripts via the Ultralytics library.
+2. **Test Videos (`.avi`, `.mp4`)**: Demonstration videos for tracking and counting must be placed locally in the project folder.
+3. **Large Datasets (`.csv`, `datasets/` folders)**: For example, the `qsar_oral_toxicity.csv` file or the COCO8 dataset must be manually downloaded and placed in their respective folders before running the notebooks.
 
 ---
 
-## Lancer un Notebook
+## Run a Notebook
 
-Une fois l'environnement activé et les dépendances installées :
+Once the environment is activated and dependencies are installed:
 
 ```bash
 jupyter notebook
