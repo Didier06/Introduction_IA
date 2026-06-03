@@ -22,18 +22,21 @@ The [`intro_IA_gene`](./intro_IA_gene) folder contains general-purpose notebooks
 The [`Chimie_IA`](./Chimie_IA) folder brings together practical cases specifically applied to chemistry and predicting the toxicity of molecules:
 
 **Basics & Classical Machine Learning**
+
 * `IA_reseau_1neurone_TP_Chimie.ipynb`: Modeling the Beer-Lambert law with a single neuron (linear regression).
 * `IA_reseau_2classes_TP_Chimie.ipynb`: Classification of active or inactive molecules according to LogP & PSA with a sigmoid neuron (binary classification).
 * `Chimie_naives_Bayles.ipynb` & `Chimie_naives_Bayes_Reel.ipynb`: Use of the Naive Bayes algorithm for chemical applications.
 
 **Deep Learning & Dense Networks**
+
 * `Toxicite_Keras.ipynb` & `Toxicite_Keras_2.ipynb`: Modeling molecular toxicity with Keras dense neural networks.
 * `mlp_pedagogique.py`: Educational implementation of a Multi-Layer Perceptron (MLP).
 
 **Graph Neural Networks (GNN)**
+
 * `Toxicite_GNN_DeepChem.ipynb`, `Toxicite_GNN_Tox21.ipynb` & `GNN_Toxicite_Ameliore.ipynb`: Use of **GNNs** to predict toxicity from molecular structures in graph form.
 * `gnn_pedagogique.py` & `gnn_architecture.py`: Educational scripts detailing the architecture and internal workings of graph neural networks.
-* `GNN_Introduction.pdf` / `.docx`: Explanatory document introducing Graph Neural Network concepts.
+* `GNN_Introduction.pdf` : Explanatory document introducing Graph Neural Network concepts.
 
 ### 3. Computer Vision with YOLOv8
 
