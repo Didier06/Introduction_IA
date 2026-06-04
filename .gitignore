@@ -72,6 +72,7 @@ datasets/
 *.mkv
 *.webm
 *.docx
+*.pptx
 # Astuce : Si vous voulez autoriser UNE vidéo MP4 spécifique et légère (ex: demo.mp4) :
 # !chemin/vers/ma_video.mp4
 
