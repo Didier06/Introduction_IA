@@ -25,7 +25,9 @@ The [`Chimie_IA`](./Chimie_IA) folder brings together practical cases specifical
 
 * `IA_reseau_1neurone_TP_Chimie.ipynb`: Modeling the Beer-Lambert law with a single neuron (linear regression).
 * `IA_reseau_2classes_TP_Chimie.ipynb`: Classification of active or inactive molecules according to LogP & PSA with a sigmoid neuron (binary classification).
-* `Chimie_naives_Bayles.ipynb` & `Chimie_naives_Bayes_Reel.ipynb`: Use of the Naive Bayes algorithm for chemical applications.
+* `Toxicite_NaiveBayes_L3_Chimie.ipynb`: Introduction to probabilities with Naive Bayes for toxicity prediction (Interactive Lab for L3 students).
+* `Toxicite_RandomForest_ClinTox_L3_Chimie.ipynb`: Decision Trees and Random Forests applied to the ClinTox dataset (Interactive Lab for L3 students).
+* `Toxicite_SVM_KNN_L3_Chimie.ipynb`: Support Vector Machines (SVM) and k-Nearest Neighbors (k-NN) with visual decision boundaries (Interactive Lab for L3 students).
 
 **Deep Learning & Dense Networks**
 
