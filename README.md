@@ -100,10 +100,24 @@ source .venv/bin/activate
 
 ### 4. Install dependencies
 
+**For Windows / Linux users:**
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+**For macOS users:**
+Please use the dedicated requirements file for Mac:
+```bash
+pip install --upgrade pip
+pip install -r requirements_mac.txt
+```
+
+> [!TIP]
+> **macOS (Apple Silicon M1/M2/M3):** To enable hardware acceleration for TensorFlow on Apple Silicon, run `pip install tensorflow-metal` after installing the requirements. PyTorch acceleration (MPS) is enabled by default.
+
+> [!IMPORTANT]
+> **Python version:** Make sure you are using Python 3.9, 3.10, or 3.11. TensorFlow 2.14 is not compatible with newer versions like Python 3.12 or 3.13.
 
 ---
 
