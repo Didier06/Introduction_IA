@@ -12,6 +12,7 @@ env/
 ENV/
 pyvenv.cfg
 .python-version
+Chimie_IA/tests/
 
 # --- Fichiers Compilés & Caches Python / Jupyter ---
 __pycache__/
