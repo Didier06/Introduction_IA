@@ -119,7 +119,13 @@ To keep this GitHub repository lightweight and fast to load, the following large
 
 ## Run a Notebook
 
-Once the environment is activated and dependencies are installed:
+You can run the Jupyter notebooks in two different ways:
+
+**Option 1: Using an IDE (Recommended)**
+Open the project folder in **VS Code** or **Gravity**. Make sure you have the official **Jupyter extension** installed. You can then open any `.ipynb` file directly and execute the cells. (Don't forget to select your `.venv` as the Python kernel).
+
+**Option 2: Using the Command Line**
+Once the environment is activated and dependencies are installed, you can launch the classic web interface:
 
 ```bash
 jupyter notebook
